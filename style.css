@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*header starts*/
+.header{
+    min-height: 300px;
+    overflow: hidden;
+    background-color:#082427;
+}
+.htop{
+    overflow: hidden;
+    min-height: 80px;
+    width: 100%;
+}
+.hlogo{
+    width: 30%;
+    min-height: 80px;
+    border: 1px solid gray;
+    float: left;
+}
+
+.hnav{
+      width: 50%;
+    border: 1px solid blue;
+    float: right;
+    min-height: 80px;
+}
+.hrest{
+    clear: both;
+    overflow: hidden;
+    min-height: 210px;
+    width: 100%;
+}
+.text{
+    width: 30%;
+    min-height: 210px;
+    border: 1px solid red;
+    float: left;
+    margin-left: 170px;
+}
+.slider{
+    width: 40%;
+    min-height: 210px;
+    border: 1px solid pink;
+    float: right;
+    margin-right: 230px;
+}
+/*header ends*/
+/*content stats*/
+.content{
+     min-height: 700px;
+    overflow: hidden;
+    background-color:#fff;
+}
+.cpart1{
+    overflow: hidden;
+    min-height: 250px;
+    border: 1px solid blue;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cpart2{
+   
+     overflow: hidden;
+    min-height: 250px;
+    border: 1px solid red;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.cpart3{
+    overflow: hidden;
+    min-height: 80px;
+    border: 1px solid yellow;
+    width: 80%;
+    margin: 0 auto;
+}
+.single_cpart1{
+    min-height: 250px;
+    overflow: hidden;
+    float: left;
+    width: 20%;
+        margin-left: 42px;
+}
+.single_cpart2{
+    min-height: 250px;
+    overflow: hidden;
+    float: left;
+    width: 20%;
+        margin-left: 42px;
+}
+.cpart2_header{
+     overflow: hidden;
+    min-height: 80px;
+    width: 100%;
+    background-color: black;
+}
+.cpart2_body{
+    overflow: hidden;
+    min-height: 150px;
+    width: 100%;
+    background-color: cornflowerblue;
+    float: left;
+}
+.cpart2_view{
+    text-align: center;
+    width: 20%;
+}
+.cpart1_header{
+    overflow: hidden;
+    min-height: 80px;
+    width: 100%;
+}
+.cpart1_logo{
+    min-height: 80px;
+    background-color:aqua;
+    width: 30%;
+    float: left;
+}
+.cpart1_title{
+    min-height: 80px;
+    background-color:coral;
+    width: 70%;
+    float: right;
+}
+.cpart1_body{
+     overflow: hidden;
+    min-height: 150px;
+    width: 100%;
+    background-color: cornflowerblue;
+    float: left;
+}
+.view{
+    text-align: center;
+    width: 20%;
+}
+.cpart3_logo{
+    width: 20%;
+    min-height: 80px;
+    background-color: aqua;
+    float: left;
+}
+.cpart3_text{
+     width: 65%;
+    background-color: blueviolet;
+    float: left;
+    min-height: 80px;
+}
+.cpart3_extension{
+     width: 15%;
+    background-color:slategray;
+    float: left;
+    min-height: 80px;
+}
+/*content ends*/
+/*footer starts*/
+.footer{
+         min-height: 100px;
+    overflow: hidden;
+    background-color:#182724;
+}
+.footer_social{
+    width: 60%;
+    min-height: 100px;
+    background-color: coral;
+    float: left;
+}
+.footer_copyr8{
+    width: 40%;
+    min-height: 100px;
+    background-color: darkslategray;
+    float: right;
+}
+/*footer ends*/
